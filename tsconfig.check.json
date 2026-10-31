@@ -1,0 +1,24 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "modules/**/*.ts",
+    "modules/**/*.tsx",
+    "server/**/*.ts",
+    "tests/**/*.ts",
+    "scripts/**/*.ts",
+    "db/**/*.ts",
+    "*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    ".next",
+    "dist",
+    ".vinext",
+    ".wrangler",
+    ".sites-runtime",
+    "examples",
+    "outputs"
+  ]
+}
